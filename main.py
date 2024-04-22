@@ -1,13 +1,13 @@
 import pygame
+from pygame.locals import *
 import sys
+
 pygame.init()
 
 
-screenwidth = 1000
-screenheight = 800
-
-pygame.display.set_caption("Yet Another Idle Clicker")
-screen = pygame.display.set_mode((screenwidth, screenheight))
+screen_width = 1000
+screen_height = 800
+screen = pygame.display.set_mode((screen_width, screen_height))
 
 pygame.display.set_caption("Yet Another Idle Clicker")
 
@@ -15,13 +15,18 @@ white = (255, 255, 255)
 black = (0, 0, 0)
 
 font = pygame.font.SysFont(None, 36)
+main_menu = 1
+meow 
+meow 
+meow
+
+
 
 clicks = 0
 click_power = 1
 auto_click_power = 0
 auto_click_interval = 1000  # in milliseconds
 last_auto_click_time = pygame.time.get_ticks()
-
 
 running = True
 while running:
@@ -49,3 +54,8 @@ while running:
 
 pygame.quit()
 sys.exit()
+
+
+
+
+
